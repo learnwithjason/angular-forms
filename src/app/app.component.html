@@ -1,0 +1,15 @@
+<div>
+  <h1>Hello Chat!</h1>
+
+  <form [formGroup]="myForm">
+    <label for="firstname">First Name</label>
+    <input id="firstname" type="text" formControlName="firstName" />
+
+    <label for="lastname">Last Name</label>
+    <input id="lastname" type="text" formControlName="lastName" />
+
+    <button type="submit" (click)="mySubmissionFunction($event)">YEET</button>
+  </form>
+</div>
+
+<router-outlet></router-outlet>

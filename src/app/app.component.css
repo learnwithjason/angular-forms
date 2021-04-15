@@ -1,0 +1,26 @@
+div {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: hotpink;
+}
+
+form {
+  margin: 2rem auto;
+  max-width: 300px;
+  text-align: left;
+  width: 90vw;
+}
+
+label,
+button {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+button {
+  width: 100%;
+}
